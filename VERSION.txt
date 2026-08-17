@@ -1,0 +1,26 @@
+﻿Craft a Skeleton
+Version: 0.1.0-dev-deployable-chassis-r14
+Solution: CraftASkeleton
+Visual Studio project: CraftASkeletonPlugin
+Target DLL: CraftASkeleton.dll
+Installed baseline: v0.1.0-dev-activation-r13b
+Installed baseline DLL SHA256: 9F5AB39B40CC44F08486DFD5EE76BAEF80D1A685B075F374F92A35DAB7DC52B4
+Pre-R14 checkpoint: C:\Users\xboxa\Documents\KenshiModding\CraftASkeletonPlugin\_checkpoints\CraftASkeleton_v0.1.0-dev-activation-r13b_PreR14_20260807_183843
+Last runtime-verified activation baseline: R13
+Cradle String ID: 10-CraftASkeleton!.mod
+Activated chassis String ID: CAS_ActivatedSkeletonChassis
+Standard Skeleton CHARACTER: 19-CraftASkeleton!.mod
+Cradle auto-activation: Disabled
+Character-inventory activation: Disabled
+Ground activation: Enabled
+Ground scan radius around camera: 250
+Ground scan item type: ITEM
+Required ground stack quantity: exactly 1
+Deployment transaction: grounded item -> spawn -> queue chassis destruction
+Spawn failure behavior: chassis retained; guard cleared for retry
+Post-spawn destruction failure: same-session guard retained; save/reload warning logged
+Player faction assignment: Enabled
+Player active squad assignment: Enabled
+Player activation notification: Enabled
+Session spawn cap: 20
+Diagnostic snapshot: CraftASkeleton.deployable-chassis-r14.snapshot

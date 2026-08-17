@@ -1,0 +1,5 @@
+﻿Craft a Skeleton! v0.1.0
+
+Runtime: 0.1.0-dev-deployable-chassis-r14
+Steam Workshop ID: 3779513209
+Verified Workshop DLL SHA256: 0DD37884CFAF08738BA2DD5874DE13DE8735F78AF187CC5B590062637178E664

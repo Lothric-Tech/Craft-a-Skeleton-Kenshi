@@ -75,7 +75,7 @@ The Repaired CPU Unit recipe requires an **Old CPU Unit** and a Skeleton Repair 
 
 ## Version
 
-Craft a Skeleton! v0.1.0
+Craft a Skeleton! v0.1.1
 
 Verified Workshop DLL SHA256:
 
@@ -88,3 +88,4 @@ Verified Workshop DLL SHA256:
 The native CraftASkeleton plugin source is released under the **GNU General Public License v3.0**.
 
 See `LICENSE` and `THIRD_PARTY_NOTICES.md`.
+

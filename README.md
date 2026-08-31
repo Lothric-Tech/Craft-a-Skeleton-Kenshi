@@ -52,7 +52,6 @@ v0.2 also adds Old CPU Units to the vanilla **ancient lab** and **ancient lab ru
 - `fcs/CraftASkeleton!.mod` - FCS mod data
 - `runtime/CraftASkeleton.ini` - plugin configuration
 - `runtime/RE_Kenshi.json` - RE_Kenshi plugin declaration
-- `build/Build_From_Source.ps1` - Release x64 build helper
 
 ## Building
 
@@ -64,15 +63,18 @@ KENSHILIB_DEPS_DIR
 BOOST_INCLUDE_PATH
 ```
 
-After the KenshiLib build dependencies are configured, run:
+Open `CraftASkeletonPlugin.vcxproj` in Visual Studio and build:
 
-```powershell
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-.\build\Build_From_Source.ps1
+```text
+Configuration: Release
+Platform: x64
 ```
 
-The helper rebuilds the Release x64 configuration and prints the DLL SHA256. It does not install the DLL into Kenshi.
+The compiled plugin is written to:
 
+```text
+_builds\Release\CraftASkeleton.dll
+```
 ## Troubleshooting
 
 If an Undeployed Skeleton does nothing after being dropped:

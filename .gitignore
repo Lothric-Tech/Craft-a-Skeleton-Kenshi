@@ -5,6 +5,7 @@
 *.VC.opendb
 
 _builds/
+Build/
 Debug/
 Release/
 x64/
